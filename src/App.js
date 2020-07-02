@@ -1,6 +1,5 @@
 import React from 'react';
-import './css/App.css';
-import './css/styles.css';
+import './App.css';
 import HeaderComponent from './header/HeaderComponent';
 import SummaryComponent from './summary/SummaryComponent';
 import SkillsComponent from './skills/SkillsComponent';
