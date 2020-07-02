@@ -1,0 +1,73 @@
+{
+    "skills": {
+        "title":"Skills",
+        "design": {
+            "title" : "Design",
+            "list": [
+                {
+                    "id":1.1,
+                    "title" : "Web Design",
+                    "tooltip": "Design of websites on screen, tablets and mobiles"
+                },
+                {
+                    "id":1.2,
+                    "title" : "User Interface Design",
+                    "tooltip": "Design of interfaces for apps and web based systems"
+                },
+                {
+                    "id":1.3,
+                    "title" : "Wireframing / Mockups",
+                    "tooltip": "Sketching and wireframing using Balsamiq Mockup"
+                },
+                {
+                    "id":1.4,
+                    "title" : "Photoshop",
+                    "tooltip": "Turning mockups into comps"
+                }
+            ]
+        }
+            
+        ,
+        "frontEnd": {
+            "title" : "Front-End Development",
+            "list": [
+                {
+                    "id":1.1,
+                    "title" : "HTML5",
+                    "tooltip": "Hyper Text Markup Language"
+                },
+                {
+                    "id":1.2,
+                    "title" : "CSS3",
+                    "tooltip": "Cascading Style Sheets"
+                },
+                {
+                    "id":1.3,
+                    "title" : "JavaScript",
+                    "tooltip": "Front-end programming language"
+                },
+                {
+                    "id":1.4,
+                    "title" : "jQuery",
+                    "tooltip": "Javascript Library"
+                },
+                {
+                    "id":1.5,
+                    "title" : "Cross-browser Compatibility",
+                    "tooltip": "Ensuring website/app has usable experience on all platforms"
+                },
+                {
+                    "id":1.6,
+                    "title" : "Web Standards",
+                    "tooltip": "Coding markup in an accessible, usable and semantic way, using best practices and avoiding proprietary rules."
+                }
+            ]
+        },
+        "backEnd": {
+
+        },
+        "others": {
+            
+        }
+    }
+}
