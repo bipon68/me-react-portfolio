@@ -13,7 +13,7 @@ function App() {
       
     <HeaderComponent></HeaderComponent>
 
-	<SummaryComponent></SummaryComponent>
+	  <SummaryComponent></SummaryComponent>
     
     <SkillsComponent></SkillsComponent>
     

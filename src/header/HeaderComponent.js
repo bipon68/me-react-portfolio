@@ -1,18 +1,19 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import headerData from '../DemoData/Header/Header';
 
 export default class HeaderComponent extends Component {
     render() {
         return (
             <>
                 <header className="vcard">
-                    <h1 className="fn">Bipon Biswas</h1>
-                    <h2 className="role">Front-End Developer &amp; Web Designer</h2>
+                    <h1 className="fn">{headerData.name}</h1>
+                    <h2 className="role">{headerData.role}</h2>
                     <ul className="contact">
-                        <li className="email">bipon770@gmail.com</li>
-                        <li className="tel">+8801920835077</li>
-                        <li className="url"><a href="http://www.bipon.me" title="Bipon Biswas Website">http://www.bipon.me</a></li>
-                        <li className="adr"><span className="locality">Dkaka</span>, <span className="country-name">Bangladesh</span></li>
-                        <li className="url twitter">@bipon68</li>
+                        <li className="email">{headerData.email}</li>
+                        <li className="tel">+{headerData.phone}</li>
+                        <li className="url"><a href="http://www.bipon.me" title="Bipon Biswas Website">{headerData.website}</a></li>
+                        <li className="adr"><span className="locality">Dkaka</span>, <span className="country-name">{headerData.country}</span></li>
+                        <li className="url twitter">{headerData.tuser}</li>
                     </ul>
                 </header>
             </>
